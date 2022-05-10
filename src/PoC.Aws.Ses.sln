@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC.Aws.Ses.Console", "PoC.Aws.Ses.Console\PoC.Aws.Ses.Console.csproj", "{3F298AC2-3E6D-4FE1-AC50-CF750A3BACFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F298AC2-3E6D-4FE1-AC50-CF750A3BACFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F298AC2-3E6D-4FE1-AC50-CF750A3BACFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F298AC2-3E6D-4FE1-AC50-CF750A3BACFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F298AC2-3E6D-4FE1-AC50-CF750A3BACFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

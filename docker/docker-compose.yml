@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  localstack:
+    image: localstack/localstack:latest
+    container_name: "poc.localstack"
+    ports:
+      - "4566:4566"
+      - "4579:4579"
+    environment:
+      - SERVICES=ses
+      - AWS_ACCESS_KEY_ID=6b38f1ec442547fa93b8e2f64559bd3f
+      - AWS_SECRET_ACCESS_KEY=17e6025cabc848c6b7757c7bf08bf4b6
+      - AWS_DEFAULT_REGION=us-west-2
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./localstack:/docker-entrypoint-initaws.d"
+
